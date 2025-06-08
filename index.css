@@ -1,0 +1,70 @@
+body {
+    background-color: #ffffff; /* Fundo preto */
+    color: rgb(0, 0, 0); /* Deixa o texto branco para melhor visibilidade */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Ajuste opcional da fonte */
+    
+}
+
+
+.faixa {
+    width: 100%; /* Faixa ocupa toda a largura */
+    height: 500px; /* Ajuste a altura conforme necessário */
+    background-color: #b6a61b; /* Cor sólida */
+    display: flex;
+    flex-direction: column; /* Organiza os textos em coluna */
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    text-align: center;
+    color: rgb(0, 0, 0); /* Cor do texto */
+    margin: 0px;
+}
+
+.faixa h1 { /*faixa titulo
+    font-size: 28px; /* Tamanho do nome do abrigo */
+    font-weight: 800;
+    margin-bottom: 1px; /* Espaço entre nome e frase */
+    font-size: 60px;
+}
+
+.faixa p {
+    font-size: 30px; /* Ajuste do tamanho da frase */
+}
+.faixa p {
+    margin: 0; /* Remove margens entre os parágrafos */
+    line-height: 1.2; /* Diminui a altura entre as linhas */
+}
+
+.texto {
+    width: 80%; /* Define espaço maior para o texto */
+    text-align: center; /* Mantém alinhamento do texto à esquerda */
+    line-height: 1.8; /* Ajuste o valor para mais ou menos espaço */
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.galeria-1 {
+    display: flex; /* Ativa o modo flexível */
+    align-items: center; /* Alinha verticalmente */
+    gap: 125px; /* Espaço entre a imagem e o texto */
+    margin: 50px;
+    line-height: 1.8; /* Ajuste o valor para mais ou menos espaço */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+   
+}
+
+.galeria-1 img {
+    width: 300px; /* Ajusta o tamanho da imagem */
+    border-radius: 10px; /* Bordas arredondadas */
+    
+}
+
+.galeria-2 {
+    display: flex;
+    align-items: right;
+    gap: 20px;
+} 
+
+.texto2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
